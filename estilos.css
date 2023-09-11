@@ -1,0 +1,37 @@
+
+.card {
+    background-color: rgba(250, 235, 215, 0.466);
+margin: 5px;
+}
+
+#text{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    color:darkslateblue;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.425);
+}
+
+html{
+    background-image: url("image.jpg");
+    background-size: cover; /* Ajustar la imagen al tamaño de la ventana */
+            background-repeat: no-repeat;
+}
+
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 8%;
+}
+
+button{
+    font-size: larger;
+    border-radius: 30%;
+    background-color: transparent;
+    color:darkslateblue;
+border: solid darkslateblue;
+}
+
